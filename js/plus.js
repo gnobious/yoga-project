@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', function() {
         function showUser(surname, name) {
             alert(`Пользователь ${surname} ${name}, его возраст ${this.value}`);
         }
-        showUser.apply(age,["Пердовский","Сергей"]);
+        showUser.apply(age,["Николаев","Сергей"]);
         
     /* 'use strict'
         function hello() {
