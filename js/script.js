@@ -149,11 +149,11 @@ window.addEventListener('DOMContentLoaded', function() {
 
                     request.onreadystatechange = function() {
                         if (request.readyState < 4) {
-                            resolve()                                                
+                            resolve();                                                
                         } else if(request.readyState === 4 && request.status == 200) {
-                            resolve()
+                            resolve();
                         } else {
-                            reject()
+                            reject();
                         }
                     };
                     request.send(data);
@@ -184,7 +184,7 @@ window.addEventListener('DOMContentLoaded', function() {
         prev = document.querySelector('.prev'),
         next = document.querySelector('.next'),
         dotsWrap = document.querySelector('.slider-dots'),
-        dots = document.querySelectorAll('.dot')
+        dots = document.querySelectorAll('.dot');
 
     showSlides(slideIndex);
     function showSlides(n) {
@@ -204,7 +204,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     function plusSlides(n) {
-        showSlides(slideIndex += n)
+        showSlides(slideIndex += n);
     }
     function currentSlide(n) {
         showSlides(slideIndex = n);
