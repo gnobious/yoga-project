@@ -16,7 +16,7 @@ In  this  project i practiced writing native JavaScript:
 
 ## Demo 🎥
 
-The completed project can be viewed [here](https://gnobious.github.io/yoga-project/ "demo url")
+The completed project can be viewed [here](https://rimerian.github.io/yoga-project/ "demo url")
 
 ## How to Use 🔧
 
@@ -25,6 +25,7 @@ The completed project can be viewed [here](https://gnobious.github.io/yoga-proje
 If you wish to run project locally as is, then all that's required is the `css`, `js`, `icons`, `img`, `logo` folders and the `index.html`, `server.php` files from this repository. Then just need to open `index.html`.
 
 ***Prerequisites*** 📋
+
 But this way you can't see the result of sending data from the form to server.php therefore, it is recommended to use a local server (for example, Open Server) to demonstrate this functionality.
 
 ## Features
